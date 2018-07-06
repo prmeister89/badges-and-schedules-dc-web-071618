@@ -30,7 +30,7 @@ def printer
     room_array << assign_rooms(index+1)
   end
   
-  
+  badge_array[index+1] + room_array[index+1]
  
   batch_badge_creator.gets.chomp |item, index|
   assign_rooms.gets.chomp |item, index|
