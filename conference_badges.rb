@@ -20,6 +20,7 @@ end
 
 def printer
   
+  batch_badge_creator.each_with_index |item, index|
   batch_badge_creator.gets.chomp |item, index|
   assign_rooms.gets.chomp |item, index|
     
